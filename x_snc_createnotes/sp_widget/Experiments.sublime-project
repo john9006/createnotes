@@ -1,0 +1,13 @@
+{
+	"folders":
+	[
+		{
+			"folder_exclude_patterns":
+			[
+				"__MACOSX",
+				".uxsyncnow-dev"
+			],
+			"path": "C:\\Users\\John Kelly\\OneDrive - Improvix Pty Ltd\\ServiceNow\\Experiments"
+		}
+	]
+}

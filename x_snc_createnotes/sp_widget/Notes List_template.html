@@ -1,0 +1,24 @@
+<div class="panel panel-default">
+  <div class="panel-heading clearfix">
+    <h3 class="panel-title pull-left">
+      {{::c.options.title}}
+    </h3>
+    <button class="btn btn-default pull-right" ng-click="c.newNote()"> 
+      <span class="glyphicon glyphicon-plus"></span> 
+    </button>
+  </div>
+  <div class="panel-body"> 
+    <input placeholder="Filter" class="form-control" ng-model="noteFilter" /> 
+  </div>
+
+  <div class="list-group">
+    <a class="list-group-item" ng-click="c.selectItem($index)" ng-repeat="note in data.notes | filter: noteFilter">
+      <h4 class="list-group-item-heading">
+        {{note.title}}
+      </h4>
+      <p class="list-group-item-text">
+        {{note.note}}
+      </p>
+    </a>
+  </div>
+</div>

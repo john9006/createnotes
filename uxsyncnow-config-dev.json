@@ -1,0 +1,3649 @@
+{
+  "host": "dev32820.service-now.com",
+  "protocol": "https",
+  "port": 0,
+  "user": "john.kelly",
+  "password": "U2FsdGVkX19gNg7NYaJ4Vm0ITLsAHyNgJspXj8/IUd4=",
+  "applications": {
+    "UXstorm's UXsyncNow": {
+      "id": 1,
+      "sys_id": "28c792c7db710340a08cf2b6af9619e2",
+      "version": "1.0.2",
+      "short_description": "",
+      "scope": "global",
+      "name": "UXstorm's UXsyncNow"
+    },
+    "Experiments": {
+      "id": 2,
+      "sys_id": "714b3d804f7213000a5e38a18110c721",
+      "version": "1.0.0",
+      "short_description": "",
+      "scope": "global",
+      "name": "Experiments"
+    },
+    "Move to current update set": {
+      "id": 3,
+      "sys_id": "9bcc8c704f3213000a5e38a18110c78e",
+      "version": "1.0.0",
+      "short_description": "",
+      "scope": "global",
+      "name": "Move to current update set"
+    },
+    "Hotel": {
+      "id": 4,
+      "sys_id": "a8f395beebc522004fcde08a5206fe2e",
+      "version": "11",
+      "short_description": "",
+      "scope": "x_hotel",
+      "name": "Hotel"
+    },
+    "CreateNotes": {
+      "id": 5,
+      "sys_id": "df5fd9a5090232007f44e1046c8ff69f",
+      "version": "1.1.0",
+      "short_description": "",
+      "scope": "x_snc_createnotes",
+      "name": "CreateNotes"
+    }
+  },
+  "app": {
+    "id": 5,
+    "sys_id": "df5fd9a5090232007f44e1046c8ff69f",
+    "version": "1.1.0",
+    "short_description": "",
+    "scope": "x_snc_createnotes",
+    "name": "CreateNotes"
+  },
+  "app_sys_id": "",
+  "proxy": "",
+  "interval": 30000,
+  "connection_max": 0,
+  "connection_wait": 0,
+  "top_dir": "",
+  "table_ignore": [],
+  "table_error": [],
+  "file_override": [],
+  "table_display": {},
+  "tables": {
+    "sp_widget": {
+      "key": "name",
+      "name": "sp_widget",
+      "fields": [
+        {
+          "name": "css",
+          "table": "sp_widget",
+          "label": "CSS",
+          "type": "css",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "template",
+          "table": "sp_widget",
+          "label": "Body HTML template",
+          "type": "html_template",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "demo_data",
+          "table": "sp_widget",
+          "label": "Demo data",
+          "type": "json",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "option_schema",
+          "table": "sp_widget",
+          "label": "Option schema",
+          "type": "json",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "client_script",
+          "table": "sp_widget",
+          "label": "Client controller",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "link",
+          "table": "sp_widget",
+          "label": "Link",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "script",
+          "table": "sp_widget",
+          "label": "Server script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sp_css": {
+      "key": "name",
+      "name": "sp_css",
+      "fields": [
+        {
+          "name": "css",
+          "table": "sp_css",
+          "label": "CSS",
+          "type": "css",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sp_instance": {
+      "key": "title",
+      "name": "sp_instance",
+      "fields": [
+        {
+          "name": "css",
+          "table": "sp_instance",
+          "label": "CSS",
+          "type": "css",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "widget_parameters",
+          "table": "sp_instance",
+          "label": "Additional options, JSON format",
+          "type": "script_server",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sp_page": {
+      "key": "id",
+      "name": "sp_page",
+      "fields": [
+        {
+          "name": "css",
+          "table": "sp_page",
+          "label": "Page Specific CSS",
+          "type": "css",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "question": {
+      "key": "question_text",
+      "name": "question",
+      "fields": [
+        {
+          "name": "default_html_value",
+          "table": "question",
+          "label": "Default HTML",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_email_layout": {
+      "key": "name",
+      "name": "sys_email_layout",
+      "fields": [
+        {
+          "name": "layout",
+          "table": "sys_email_layout",
+          "label": "Layout",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "advanced_layout",
+          "table": "sys_email_layout",
+          "label": "Advanced Layout",
+          "type": "xml",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_process_flow": {
+      "key": "name",
+      "name": "sys_process_flow",
+      "fields": [
+        {
+          "name": "description",
+          "table": "sys_process_flow",
+          "label": "Description",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sc_cat_item_option": {
+      "key": "name",
+      "name": "sc_cat_item_option",
+      "fields": [
+        {
+          "name": "description",
+          "table": "sc_cat_item_option",
+          "label": "Description",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sysauto_indicator": {
+      "key": "name",
+      "name": "sysauto_indicator",
+      "fields": [
+        {
+          "name": "body",
+          "table": "sysauto_indicator",
+          "label": "Introductory message",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sysauto_report": {
+      "key": "name",
+      "name": "sysauto_report",
+      "fields": [
+        {
+          "name": "report_body",
+          "table": "sysauto_report",
+          "label": "Introductory message",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_email_canned_message": {
+      "key": "title",
+      "name": "sys_email_canned_message",
+      "fields": [
+        {
+          "name": "body",
+          "table": "sys_email_canned_message",
+          "label": "Body",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sysevent_email_style": {
+      "key": "name",
+      "name": "sysevent_email_style",
+      "fields": [
+        {
+          "name": "style",
+          "table": "sysevent_email_style",
+          "label": "Style",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_home": {
+      "key": "short_description",
+      "name": "sys_home",
+      "fields": [
+        {
+          "name": "text",
+          "table": "sys_home",
+          "label": "Text",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sysevent_in_email_action": {
+      "key": "name",
+      "name": "sysevent_in_email_action",
+      "fields": [
+        {
+          "name": "reply_email",
+          "table": "sysevent_in_email_action",
+          "label": "Reply email",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "script",
+          "table": "sysevent_in_email_action",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "rb_category": {
+      "key": "name",
+      "name": "rb_category",
+      "fields": [
+        {
+          "name": "title",
+          "table": "rb_category",
+          "label": "Title",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "mtg_definition": {
+      "key": "name",
+      "name": "mtg_definition",
+      "fields": [
+        {
+          "name": "conference_details",
+          "table": "mtg_definition",
+          "label": "Conference Details",
+          "type": "html",
+          "scope": "Change Management - CAB Workbench",
+          "scope_id": "18351d53eb32120034d1eeea1206fe79"
+        }
+      ]
+    },
+    "sysauto_query_builder": {
+      "key": "name",
+      "name": "sysauto_query_builder",
+      "fields": [
+        {
+          "name": "report_body",
+          "table": "sysauto_query_builder",
+          "label": "Introductory message",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_report": {
+      "key": "title",
+      "name": "sys_report",
+      "fields": [
+        {
+          "name": "content",
+          "table": "sys_report",
+          "label": "Content",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "item_option_new": {
+      "key": "name",
+      "name": "item_option_new",
+      "fields": [
+        {
+          "name": "description",
+          "table": "item_option_new",
+          "label": "Description",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "instructions",
+          "table": "item_option_new",
+          "label": "Instructions",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sysevent_email_action": {
+      "key": "name",
+      "name": "sysevent_email_action",
+      "fields": [
+        {
+          "name": "digest_separator_html",
+          "table": "sysevent_email_action",
+          "label": "Digest Separator (HTML)",
+          "type": "html_script",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "digest_html",
+          "table": "sysevent_email_action",
+          "label": "Digest HTML",
+          "type": "html_script",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "message_html",
+          "table": "sysevent_email_action",
+          "label": "Message HTML",
+          "type": "html_script",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "advanced_condition",
+          "table": "sysevent_email_action",
+          "label": "Advanced condition",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sn_templated_snip_note_template": {
+      "key": "name",
+      "name": "sn_templated_snip_note_template",
+      "fields": [
+        {
+          "name": "html_script_body",
+          "table": "sn_templated_snip_note_template",
+          "label": "Template body",
+          "type": "html_script",
+          "scope": "Templated Snippets",
+          "scope_id": "2d3597c80b67320036e62c7885673a43"
+        }
+      ]
+    },
+    "sn_hr_core_email_content": {
+      "key": "name",
+      "name": "sn_hr_core_email_content",
+      "fields": [
+        {
+          "name": "message_html",
+          "table": "sn_hr_core_email_content",
+          "label": "Message HTML",
+          "type": "html_script",
+          "scope": "Human Resources: Core",
+          "scope_id": "d4ac3fff5b311200a4656ede91f91af2"
+        }
+      ]
+    },
+    "sys_email_client_template": {
+      "key": "name",
+      "name": "sys_email_client_template",
+      "fields": [
+        {
+          "name": "body_html",
+          "table": "sys_email_client_template",
+          "label": "Body HTML",
+          "type": "html_script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sysevent_email_template": {
+      "key": "name",
+      "name": "sysevent_email_template",
+      "fields": [
+        {
+          "name": "message_html",
+          "table": "sysevent_email_template",
+          "label": "Message HTML",
+          "type": "html_script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sp_search_source": {
+      "key": "name",
+      "name": "sp_search_source",
+      "fields": [
+        {
+          "name": "typeahead_template",
+          "table": "sp_search_source",
+          "label": "Typeahead template",
+          "type": "html_template",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "search_page_template",
+          "table": "sp_search_source",
+          "label": "Search page template",
+          "type": "html_template",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "data_fetch_script",
+          "table": "sp_search_source",
+          "label": "Data fetch script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sp_ng_template": {
+      "key": "id",
+      "name": "sp_ng_template",
+      "fields": [
+        {
+          "name": "template",
+          "table": "sp_ng_template",
+          "label": "Template",
+          "type": "html_template",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_flow_trigger_plan": {
+      "key": "trigger",
+      "name": "sys_flow_trigger_plan",
+      "fields": [
+        {
+          "name": "plan",
+          "table": "sys_flow_trigger_plan",
+          "label": "Plan",
+          "type": "json",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "pa_diagnostic": {
+      "key": "name",
+      "name": "pa_diagnostic",
+      "fields": [
+        {
+          "name": "script",
+          "table": "pa_diagnostic",
+          "label": "Script",
+          "type": "script",
+          "scope": "Performance Analytics - Diagnostics",
+          "scope_id": "b2881e900b3003001e684ac3b6673a93"
+        }
+      ]
+    },
+    "sp_portal": {
+      "key": "title",
+      "name": "sp_portal",
+      "fields": [
+        {
+          "name": "quick_start_config",
+          "table": "sp_portal",
+          "label": "Quick start config",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "scheduled_data_export": {
+      "key": "name",
+      "name": "scheduled_data_export",
+      "fields": [
+        {
+          "name": "pre_script",
+          "table": "scheduled_data_export",
+          "label": "Pre script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "post_script",
+          "table": "scheduled_data_export",
+          "label": "Post script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "csm_table_map": {
+      "key": "mapping_name",
+      "name": "csm_table_map",
+      "fields": [
+        {
+          "name": "advanced_condition",
+          "table": "csm_table_map",
+          "label": "Advanced Condition",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "mapping_script",
+          "table": "csm_table_map",
+          "label": "Mapping Script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "process_guide": {
+      "key": "name",
+      "name": "process_guide",
+      "fields": [
+        {
+          "name": "advanced_condition",
+          "table": "process_guide",
+          "label": "Advanced condition",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sp_angular_provider": {
+      "key": "name",
+      "name": "sp_angular_provider",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sp_angular_provider",
+          "label": "Client Script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sysrule_escalate": {
+      "key": "name",
+      "name": "sysrule_escalate",
+      "fields": [
+        {
+          "name": "assignment_script",
+          "table": "sysrule_escalate",
+          "label": "Assignment script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "advanced_condition",
+          "table": "sysrule_escalate",
+          "label": "Advanced condition",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "pwd_cred_store": {
+      "key": "name",
+      "name": "pwd_cred_store",
+      "fields": [
+        {
+          "name": "pwd_rule",
+          "table": "pwd_cred_store",
+          "label": "Password rule",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "strength_rule",
+          "table": "pwd_cred_store",
+          "label": "Strength rule",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "pwd_rule_hint",
+          "table": "pwd_cred_store",
+          "label": "Password rule hint",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_email_filter": {
+      "key": "name",
+      "name": "sys_email_filter",
+      "fields": [
+        {
+          "name": "action_script",
+          "table": "sys_email_filter",
+          "label": "Action script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "condition_script",
+          "table": "sys_email_filter",
+          "label": "Condition script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_push_notif_act_script": {
+      "key": "name",
+      "name": "sys_push_notif_act_script",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sys_push_notif_act_script",
+          "label": "Script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_ui_context_menu": {
+      "key": "name",
+      "name": "sys_ui_context_menu",
+      "fields": [
+        {
+          "name": "on_show_script",
+          "table": "sys_ui_context_menu",
+          "label": "onShow script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "action_script",
+          "table": "sys_ui_context_menu",
+          "label": "Action script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "dynamic_actions_script",
+          "table": "sys_ui_context_menu",
+          "label": "Dynamic actions script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "wf_element_activity": {
+      "key": "name",
+      "name": "wf_element_activity",
+      "fields": [
+        {
+          "name": "output_process_script",
+          "table": "wf_element_activity",
+          "label": "Output process script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "input_process_script",
+          "table": "wf_element_activity",
+          "label": "Input process script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "processing_script",
+          "table": "wf_element_activity",
+          "label": "Processing script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_amb_processor": {
+      "key": "name",
+      "name": "sys_amb_processor",
+      "fields": [
+        {
+          "name": "channel_subscribe_advanced_authorization",
+          "table": "sys_amb_processor",
+          "label": "Channel subscribe advanced authorization",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "message_receive_advanced_authorization",
+          "table": "sys_amb_processor",
+          "label": "Message receive advanced authorization",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "message_receive_listener",
+          "table": "sys_amb_processor",
+          "label": "Message receive listener",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "user_subscribe_listener",
+          "table": "sys_amb_processor",
+          "label": "User subscribe listener",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "user_unsubscribe_listener",
+          "table": "sys_amb_processor",
+          "label": "User unsubscribe listener",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "channel_create_advanced_authorization",
+          "table": "sys_amb_processor",
+          "label": "Channel create advanced authorization",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "message_send_advanced_authorization",
+          "table": "sys_amb_processor",
+          "label": "Message send advanced authorization",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "message_send_listener",
+          "table": "sys_amb_processor",
+          "label": "Message send listener",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "csm_field_map": {
+      "key": "target_field",
+      "name": "csm_field_map",
+      "fields": [
+        {
+          "name": "transform_script",
+          "table": "csm_field_map",
+          "label": "Transform Script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_impex_entry": {
+      "key": "name",
+      "name": "sys_impex_entry",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sys_impex_entry",
+          "label": "Script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "pwd_extension_type": {
+      "key": "name",
+      "name": "pwd_extension_type",
+      "fields": [
+        {
+          "name": "template",
+          "table": "pwd_extension_type",
+          "label": "Template",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_nav_link": {
+      "key": "name",
+      "name": "sys_nav_link",
+      "fields": [
+        {
+          "name": "text_script",
+          "table": "sys_nav_link",
+          "label": "Text script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "url_script",
+          "table": "sys_nav_link",
+          "label": "URL script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_script": {
+      "key": "name",
+      "name": "sys_script",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sys_script",
+          "label": "Script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "message",
+          "table": "sys_script",
+          "label": "Message",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_script_ajax": {
+      "key": "name",
+      "name": "sys_script_ajax",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sys_script_ajax",
+          "label": "Script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "asmt_metric": {
+      "key": "name",
+      "name": "asmt_metric",
+      "fields": [
+        {
+          "name": "script",
+          "table": "asmt_metric",
+          "label": "Script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "details",
+          "table": "asmt_metric",
+          "label": "Details",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sf_state_flow": {
+      "key": "name",
+      "name": "sf_state_flow",
+      "fields": [
+        {
+          "name": "manual_script",
+          "table": "sf_state_flow",
+          "label": "Manual script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "automatic_script",
+          "table": "sf_state_flow",
+          "label": "Automatic script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_ui_title": {
+      "key": "table",
+      "name": "sys_ui_title",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sys_ui_title",
+          "label": "Script - set value in answer",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "discovery_port_probe": {
+      "key": "name",
+      "name": "discovery_port_probe",
+      "fields": [
+        {
+          "name": "script",
+          "table": "discovery_port_probe",
+          "label": "Script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_ui_action": {
+      "key": "name",
+      "name": "sys_ui_action",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sys_ui_action",
+          "label": "Script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_impex_map": {
+      "key": "name",
+      "name": "sys_impex_map",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sys_impex_map",
+          "label": "Script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_ws_operation": {
+      "key": "name",
+      "name": "sys_ws_operation",
+      "fields": [
+        {
+          "name": "operation_script",
+          "table": "sys_ws_operation",
+          "label": "Script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "live_table_notification": {
+      "key": "description",
+      "name": "live_table_notification",
+      "fields": [
+        {
+          "name": "before_script",
+          "table": "live_table_notification",
+          "label": "Before script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "scheduled_data_import": {
+      "key": "name",
+      "name": "scheduled_data_import",
+      "fields": [
+        {
+          "name": "pre_script",
+          "table": "scheduled_data_import",
+          "label": "Pre script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "post_script",
+          "table": "scheduled_data_import",
+          "label": "Post script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_ui_ng_action": {
+      "key": "name",
+      "name": "sys_ui_ng_action",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sys_ui_ng_action",
+          "label": "Script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sysrule_view": {
+      "key": "name",
+      "name": "sysrule_view",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sysrule_view",
+          "label": "Script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "metric_definition": {
+      "key": "name",
+      "name": "metric_definition",
+      "fields": [
+        {
+          "name": "script",
+          "table": "metric_definition",
+          "label": "Script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_push_notif_msg_content": {
+      "key": "name",
+      "name": "sys_push_notif_msg_content",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sys_push_notif_msg_content",
+          "label": "Push Message Generation",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "clone_cleanup_script": {
+      "key": "name",
+      "name": "clone_cleanup_script",
+      "fields": [
+        {
+          "name": "script",
+          "table": "clone_cleanup_script",
+          "label": "Script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "expert_panel_template": {
+      "key": "name",
+      "name": "expert_panel_template",
+      "fields": [
+        {
+          "name": "script",
+          "table": "expert_panel_template",
+          "label": "Script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "ecc_agent_capability_value_test": {
+      "key": "capability",
+      "name": "ecc_agent_capability_value_test",
+      "fields": [
+        {
+          "name": "script",
+          "table": "ecc_agent_capability_value_test",
+          "label": "Value test script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "connect_action": {
+      "key": "title",
+      "name": "connect_action",
+      "fields": [
+        {
+          "name": "script",
+          "table": "connect_action",
+          "label": "Script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "risk_conditions": {
+      "key": "name",
+      "name": "risk_conditions",
+      "fields": [
+        {
+          "name": "advanced_condition",
+          "table": "risk_conditions",
+          "label": "Advanced condition",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "content_block_detail": {
+      "key": "name",
+      "name": "content_block_detail",
+      "fields": [
+        {
+          "name": "script",
+          "table": "content_block_detail",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "cmn_relative_duration": {
+      "key": "name",
+      "name": "cmn_relative_duration",
+      "fields": [
+        {
+          "name": "script",
+          "table": "cmn_relative_duration",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "process_step_approval": {
+      "key": "name",
+      "name": "process_step_approval",
+      "fields": [
+        {
+          "name": "approver_script",
+          "table": "process_step_approval",
+          "label": "Approver script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "rejection_script",
+          "table": "process_step_approval",
+          "label": "Rejection script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "approval_script",
+          "table": "process_step_approval",
+          "label": "Approval script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_ui_script": {
+      "key": "name",
+      "name": "sys_ui_script",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sys_ui_script",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_ui_page": {
+      "key": "name",
+      "name": "sys_ui_page",
+      "fields": [
+        {
+          "name": "client_script",
+          "table": "sys_ui_page",
+          "label": "Client script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "processing_script",
+          "table": "sys_ui_page",
+          "label": "Processing script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "html",
+          "table": "sys_ui_page",
+          "label": "HTML",
+          "type": "xml",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "ecc_agent_script_include": {
+      "key": "name",
+      "name": "ecc_agent_script_include",
+      "fields": [
+        {
+          "name": "script",
+          "table": "ecc_agent_script_include",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "discovery_probes": {
+      "key": "name",
+      "name": "discovery_probes",
+      "fields": [
+        {
+          "name": "post_processor_script",
+          "table": "discovery_probes",
+          "label": "Post processor script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "script",
+          "table": "discovery_probes",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "diagrammer_action": {
+      "key": "name",
+      "name": "diagrammer_action",
+      "fields": [
+        {
+          "name": "script",
+          "table": "diagrammer_action",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "content_type_detail": {
+      "key": "condition",
+      "name": "content_type_detail",
+      "fields": [
+        {
+          "name": "script",
+          "table": "content_type_detail",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "cmn_map_page": {
+      "key": "name",
+      "name": "cmn_map_page",
+      "fields": [
+        {
+          "name": "script",
+          "table": "cmn_map_page",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sc_cat_item_dt_approval": {
+      "key": "name",
+      "name": "sc_cat_item_dt_approval",
+      "fields": [
+        {
+          "name": "approval_script",
+          "table": "sc_cat_item_dt_approval",
+          "label": "Approval script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sysevent_script_action": {
+      "key": "name",
+      "name": "sysevent_script_action",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sysevent_script_action",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_relationship": {
+      "key": "name",
+      "name": "sys_relationship",
+      "fields": [
+        {
+          "name": "insert_callback",
+          "table": "sys_relationship",
+          "label": "Insert callback",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "query_with",
+          "table": "sys_relationship",
+          "label": "Query with",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "query_from",
+          "table": "sys_relationship",
+          "label": "Query from",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "apply_to",
+          "table": "sys_relationship",
+          "label": "Apply to",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_widgets": {
+      "key": "name",
+      "name": "sys_widgets",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sys_widgets",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_script_fix": {
+      "key": "name",
+      "name": "sys_script_fix",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sys_script_fix",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "cmn_schedule_page": {
+      "key": "name",
+      "name": "cmn_schedule_page",
+      "fields": [
+        {
+          "name": "server_script",
+          "table": "cmn_schedule_page",
+          "label": "Server AJAX processor",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "client_script",
+          "table": "cmn_schedule_page",
+          "label": "Client script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_transform_entry": {
+      "key": "source_field",
+      "name": "sys_transform_entry",
+      "fields": [
+        {
+          "name": "source_script",
+          "table": "sys_transform_entry",
+          "label": "Source script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_ui_list_control": {
+      "key": "name",
+      "name": "sys_ui_list_control",
+      "fields": [
+        {
+          "name": "new_condition",
+          "table": "sys_ui_list_control",
+          "label": "Omit new condition",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "edit_condition",
+          "table": "sys_ui_list_control",
+          "label": "Omit edit condition",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "columns_condition",
+          "table": "sys_ui_list_control",
+          "label": "Omit columns condition",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "filter_condition",
+          "table": "sys_ui_list_control",
+          "label": "Omit filter condition",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "empty_condition",
+          "table": "sys_ui_list_control",
+          "label": "Omit empty condition",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "link_condition",
+          "table": "sys_ui_list_control",
+          "label": "Omit links condition",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_security_acl": {
+      "key": "name",
+      "name": "sys_security_acl",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sys_security_acl",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sc_cat_item_guide": {
+      "key": "name",
+      "name": "sc_cat_item_guide",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sc_cat_item_guide",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "validator",
+          "table": "sc_cat_item_guide",
+          "label": "Validator",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_transform_map": {
+      "key": "name",
+      "name": "sys_transform_map",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sys_transform_map",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_ui_list_control_embedded": {
+      "key": "name",
+      "name": "sys_ui_list_control_embedded",
+      "fields": [
+        {
+          "name": "link_condition",
+          "table": "sys_ui_list_control_embedded",
+          "label": "Omit links condition",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "columns_condition",
+          "table": "sys_ui_list_control_embedded",
+          "label": "Omit columns condition",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "empty_condition",
+          "table": "sys_ui_list_control_embedded",
+          "label": "Omit empty condition",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "new_condition",
+          "table": "sys_ui_list_control_embedded",
+          "label": "Omit insert row condition",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sc_cat_item_delivery_task": {
+      "key": "name",
+      "name": "sc_cat_item_delivery_task",
+      "fields": [
+        {
+          "name": "condition_script",
+          "table": "sc_cat_item_delivery_task",
+          "label": "Condition script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "generation_script",
+          "table": "sc_cat_item_delivery_task",
+          "label": "Generation script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "discovery_classy": {
+      "key": "name",
+      "name": "discovery_classy",
+      "fields": [
+        {
+          "name": "script",
+          "table": "discovery_classy",
+          "label": "On classification script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sc_category": {
+      "key": "title",
+      "name": "sc_category",
+      "fields": [
+        {
+          "name": "entitlement_script",
+          "table": "sc_category",
+          "label": "Entitlement script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_script_include": {
+      "key": "name",
+      "name": "sys_script_include",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sys_script_include",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_script_validator": {
+      "key": "internal_type",
+      "name": "sys_script_validator",
+      "fields": [
+        {
+          "name": "validator",
+          "table": "sys_script_validator",
+          "label": "Validator",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_script_email": {
+      "key": "name",
+      "name": "sys_script_email",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sys_script_email",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "usageanalytics_count_cfg": {
+      "key": "definition_id",
+      "name": "usageanalytics_count_cfg",
+      "fields": [
+        {
+          "name": "script",
+          "table": "usageanalytics_count_cfg",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "expert_panel_transition": {
+      "key": "order",
+      "name": "expert_panel_transition",
+      "fields": [
+        {
+          "name": "transition_script",
+          "table": "expert_panel_transition",
+          "label": "Transition script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "ecc_agent_script": {
+      "key": "name",
+      "name": "ecc_agent_script",
+      "fields": [
+        {
+          "name": "script",
+          "table": "ecc_agent_script",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sc_cat_item_producer": {
+      "key": "name",
+      "name": "sc_cat_item_producer",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sc_cat_item_producer",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sc_cat_item": {
+      "key": "name",
+      "name": "sc_cat_item",
+      "fields": [
+        {
+          "name": "delivery_plan_script",
+          "table": "sc_cat_item",
+          "label": "Delivery plan script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "entitlement_script",
+          "table": "sc_cat_item",
+          "label": "Entitlement script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "description",
+          "table": "sc_cat_item",
+          "label": "Description",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "ci_identifier": {
+      "key": "name",
+      "name": "ci_identifier",
+      "fields": [
+        {
+          "name": "script",
+          "table": "ci_identifier",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sc_ic_task_assign_defn_staging": {
+      "key": "short_description",
+      "name": "sc_ic_task_assign_defn_staging",
+      "fields": [
+        {
+          "name": "assignment_script",
+          "table": "sc_ic_task_assign_defn_staging",
+          "label": "Assignment script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "user_criteria": {
+      "key": "name",
+      "name": "user_criteria",
+      "fields": [
+        {
+          "name": "script",
+          "table": "user_criteria",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "content_block": {
+      "key": "name",
+      "name": "content_block",
+      "fields": [
+        {
+          "name": "condition",
+          "table": "content_block",
+          "label": "Condition",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "content_block_lists": {
+      "key": "name",
+      "name": "content_block_lists",
+      "fields": [
+        {
+          "name": "script",
+          "table": "content_block_lists",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_ui_policy": {
+      "key": "short_description",
+      "name": "sys_ui_policy",
+      "fields": [
+        {
+          "name": "script_false",
+          "table": "sys_ui_policy",
+          "label": "Execute if false",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "script_true",
+          "table": "sys_ui_policy",
+          "label": "Execute if true",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "content_page_rule": {
+      "key": "name",
+      "name": "content_page_rule",
+      "fields": [
+        {
+          "name": "advanced_condition",
+          "table": "content_page_rule",
+          "label": "Advanced condition",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sc_ic_aprvl_type_defn_staging": {
+      "key": "name",
+      "name": "sc_ic_aprvl_type_defn_staging",
+      "fields": [
+        {
+          "name": "approver_script",
+          "table": "sc_ic_aprvl_type_defn_staging",
+          "label": "Approver script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_suggestion_rule": {
+      "key": "rule_name",
+      "name": "sys_suggestion_rule",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sys_suggestion_rule",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "condition",
+          "table": "sys_suggestion_rule",
+          "label": "Condition",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_processor": {
+      "key": "name",
+      "name": "sys_processor",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sys_processor",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_script_client": {
+      "key": "name",
+      "name": "sys_script_client",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sys_script_client",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_navigator": {
+      "key": "table",
+      "name": "sys_navigator",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sys_navigator",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sysauto": {
+      "key": "name",
+      "name": "sysauto",
+      "fields": [
+        {
+          "name": "condition",
+          "table": "sysauto",
+          "label": "Condition",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sc_ic_task_assign_defn": {
+      "key": "short_description",
+      "name": "sc_ic_task_assign_defn",
+      "fields": [
+        {
+          "name": "assignment_script",
+          "table": "sc_ic_task_assign_defn",
+          "label": "Assignment script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sysauto_script": {
+      "key": "name",
+      "name": "sysauto_script",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sysauto_script",
+          "label": "Run this script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_atf_step_config": {
+      "key": "name",
+      "name": "sys_atf_step_config",
+      "fields": [
+        {
+          "name": "description_generator",
+          "table": "sys_atf_step_config",
+          "label": "Description generation script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "step_execution_generator",
+          "table": "sys_atf_step_config",
+          "label": "Step execution script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "html_description",
+          "table": "sys_atf_step_config",
+          "label": "HTML description",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sc_ic_aprvl_type_defn": {
+      "key": "name",
+      "name": "sc_ic_aprvl_type_defn",
+      "fields": [
+        {
+          "name": "approver_script",
+          "table": "sc_ic_aprvl_type_defn",
+          "label": "Approver Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_ui_list_script_client": {
+      "key": "name",
+      "name": "sys_ui_list_script_client",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sys_ui_list_script_client",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "cxs_table_config": {
+      "key": "name",
+      "name": "cxs_table_config",
+      "fields": [
+        {
+          "name": "search_as_script",
+          "table": "cxs_table_config",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "cxs_search_res_config": {
+      "key": "name",
+      "name": "cxs_search_res_config",
+      "fields": [
+        {
+          "name": "grsr_script",
+          "table": "cxs_search_res_config",
+          "label": "Resource script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_installation_exit": {
+      "key": "name",
+      "name": "sys_installation_exit",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sys_installation_exit",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "cxs_fltr_config": {
+      "key": "name",
+      "name": "cxs_fltr_config",
+      "fields": [
+        {
+          "name": "filter_script",
+          "table": "cxs_fltr_config",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_service_api": {
+      "key": "name",
+      "name": "sys_service_api",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sys_service_api",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "wf_activity_definition": {
+      "key": "name",
+      "name": "wf_activity_definition",
+      "fields": [
+        {
+          "name": "script",
+          "table": "wf_activity_definition",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sn_bm_client_recommendation": {
+      "key": "name",
+      "name": "sn_bm_client_recommendation",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sn_bm_client_recommendation",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Benchmark Client",
+          "scope_id": "3ad18693db92220004997878f0b8f516"
+        },
+        {
+          "name": "content",
+          "table": "sn_bm_client_recommendation",
+          "label": "Content",
+          "type": "translated_html",
+          "scope": "Benchmark Client",
+          "scope_id": "3ad18693db92220004997878f0b8f516"
+        }
+      ]
+    },
+    "sys_web_service": {
+      "key": "name",
+      "name": "sys_web_service",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sys_web_service",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "pa_scripts": {
+      "key": "name",
+      "name": "pa_scripts",
+      "fields": [
+        {
+          "name": "script",
+          "table": "pa_scripts",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_ui_list_script_server": {
+      "key": "name",
+      "name": "sys_ui_list_script_server",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sys_ui_list_script_server",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_listener_detail": {
+      "key": "classname",
+      "name": "sys_listener_detail",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sys_listener_detail",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_transform_script": {
+      "key": "when",
+      "name": "sys_transform_script",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sys_transform_script",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sp_rectangle_menu_item": {
+      "key": "label",
+      "name": "sp_rectangle_menu_item",
+      "fields": [
+        {
+          "name": "record_script",
+          "table": "sp_rectangle_menu_item",
+          "label": "Server Script",
+          "type": "script_server",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "expert_panel": {
+      "key": "name",
+      "name": "expert_panel",
+      "fields": [
+        {
+          "name": "description",
+          "table": "expert_panel",
+          "label": "Description",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_properties_category": {
+      "key": "name",
+      "name": "sys_properties_category",
+      "fields": [
+        {
+          "name": "title",
+          "table": "sys_properties_category",
+          "label": "Title",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "menu_section": {
+      "key": "name",
+      "name": "menu_section",
+      "fields": [
+        {
+          "name": "footer",
+          "table": "menu_section",
+          "label": "Footer",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "header",
+          "table": "menu_section",
+          "label": "Header",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "announcement": {
+      "key": "name",
+      "name": "announcement",
+      "fields": [
+        {
+          "name": "details",
+          "table": "announcement",
+          "label": "Details",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "gsw_content": {
+      "key": "title",
+      "name": "gsw_content",
+      "fields": [
+        {
+          "name": "description",
+          "table": "gsw_content",
+          "label": "Description",
+          "type": "translated_html",
+          "scope": "Guided Setup",
+          "scope_id": "5f4ef4ed9f401200b18a7feea57fcfbe"
+        }
+      ]
+    },
+    "sc_ic_item_staging": {
+      "key": "name",
+      "name": "sc_ic_item_staging",
+      "fields": [
+        {
+          "name": "description",
+          "table": "sc_ic_item_staging",
+          "label": "Description",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "pc_vendor_cat_item": {
+      "key": "name",
+      "name": "pc_vendor_cat_item",
+      "fields": [
+        {
+          "name": "description",
+          "table": "pc_vendor_cat_item",
+          "label": "Description",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "asmt_metric_category": {
+      "key": "name",
+      "name": "asmt_metric_category",
+      "fields": [
+        {
+          "name": "details",
+          "table": "asmt_metric_category",
+          "label": "Details",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "cool_thing": {
+      "key": "number",
+      "name": "cool_thing",
+      "fields": [
+        {
+          "name": "text",
+          "table": "cool_thing",
+          "label": "Text",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sn_hr_core_service": {
+      "key": "name",
+      "name": "sn_hr_core_service",
+      "fields": [
+        {
+          "name": "fulfillment_instructions",
+          "table": "sn_hr_core_service",
+          "label": "Fulfillment instructions",
+          "type": "translated_html",
+          "scope": "Human Resources: Core",
+          "scope_id": "d4ac3fff5b311200a4656ede91f91af2"
+        }
+      ]
+    },
+    "asmt_metric_type": {
+      "key": "name",
+      "name": "asmt_metric_type",
+      "fields": [
+        {
+          "name": "introduction",
+          "table": "asmt_metric_type",
+          "label": "Introduction",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "end_note",
+          "table": "asmt_metric_type",
+          "label": "End note",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_embedded_tour_step": {
+      "key": "name",
+      "name": "sys_embedded_tour_step",
+      "fields": [
+        {
+          "name": "content",
+          "table": "sys_embedded_tour_step",
+          "label": "Content",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_embedded_help_content": {
+      "key": "name",
+      "name": "sys_embedded_help_content",
+      "fields": [
+        {
+          "name": "content",
+          "table": "sys_embedded_help_content",
+          "label": "Content",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "content_block_static": {
+      "key": "name",
+      "name": "content_block_static",
+      "fields": [
+        {
+          "name": "static_content",
+          "table": "content_block_static",
+          "label": "Static content",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "asmt_signature": {
+      "key": "name",
+      "name": "asmt_signature",
+      "fields": [
+        {
+          "name": "assertion",
+          "table": "asmt_signature",
+          "label": "Assertion",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_ui_macro": {
+      "key": "name",
+      "name": "sys_ui_macro",
+      "fields": [
+        {
+          "name": "xml",
+          "table": "sys_ui_macro",
+          "label": "XML",
+          "type": "xml",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_soap_message_function": {
+      "key": "function_name",
+      "name": "sys_soap_message_function",
+      "fields": [
+        {
+          "name": "envelope",
+          "table": "sys_soap_message_function",
+          "label": "Envelope",
+          "type": "xml",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_soap_message": {
+      "key": "name",
+      "name": "sys_soap_message",
+      "fields": [
+        {
+          "name": "wsdl_xml",
+          "table": "sys_soap_message",
+          "label": "WSDL XML",
+          "type": "xml",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "content_block_programmatic": {
+      "key": "name",
+      "name": "content_block_programmatic",
+      "fields": [
+        {
+          "name": "programmatic_content",
+          "table": "content_block_programmatic",
+          "label": "Dynamic content",
+          "type": "xml",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    }
+  },
+  "tables_unmapped": {
+    "sn_hr_integrations_outbound_schema_mapping": {
+      "key": "",
+      "name": "sn_hr_integrations_outbound_schema_mapping",
+      "fields": [
+        {
+          "name": "source_script",
+          "table": "sn_hr_integrations_outbound_schema_mapping",
+          "label": "Source script",
+          "type": "script_plain",
+          "scope": "Human Resources: Integrations",
+          "scope_id": "aaa655c19f0322003be01050a57fcf65"
+        }
+      ]
+    },
+    "gsw_content_information": {
+      "key": "",
+      "name": "gsw_content_information",
+      "fields": [
+        {
+          "name": "article",
+          "table": "gsw_content_information",
+          "label": "Article",
+          "type": "translated_html",
+          "scope": "Guided Setup",
+          "scope_id": "5f4ef4ed9f401200b18a7feea57fcfbe"
+        },
+        {
+          "name": "more_info_html",
+          "table": "gsw_content_information",
+          "label": "More information",
+          "type": "translated_html",
+          "scope": "Guided Setup",
+          "scope_id": "5f4ef4ed9f401200b18a7feea57fcfbe"
+        }
+      ]
+    }
+  },
+  "tables_non_application": {
+    "mtg_meeting": {
+      "key": "",
+      "name": "mtg_meeting",
+      "fields": [
+        {
+          "name": "conference_details",
+          "table": "mtg_meeting",
+          "label": "Conference details",
+          "type": "html",
+          "scope": "Change Management - CAB Workbench",
+          "scope_id": "18351d53eb32120034d1eeea1206fe79"
+        },
+        {
+          "name": "meeting_notes",
+          "table": "mtg_meeting",
+          "label": "Meeting notes",
+          "type": "html",
+          "scope": "Change Management - CAB Workbench",
+          "scope_id": "18351d53eb32120034d1eeea1206fe79"
+        }
+      ]
+    },
+    "clm_contract_history": {
+      "key": "",
+      "name": "clm_contract_history",
+      "fields": [
+        {
+          "name": "terms_and_conditions",
+          "table": "clm_contract_history",
+          "label": "Terms and Conditions",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sn_hr_core_link": {
+      "key": "",
+      "name": "sn_hr_core_link",
+      "fields": [
+        {
+          "name": "rich_text_plain_html",
+          "table": "sn_hr_core_link",
+          "label": "Rich text",
+          "type": "html",
+          "scope": "Human Resources: Core",
+          "scope_id": "d4ac3fff5b311200a4656ede91f91af2"
+        },
+        {
+          "name": "rich_text",
+          "table": "sn_hr_core_link",
+          "label": "Rich text",
+          "type": "html_script",
+          "scope": "Human Resources: Core",
+          "scope_id": "d4ac3fff5b311200a4656ede91f91af2"
+        }
+      ]
+    },
+    "kb_submission": {
+      "key": "",
+      "name": "kb_submission",
+      "fields": [
+        {
+          "name": "text",
+          "table": "kb_submission",
+          "label": "Text",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "ola": {
+      "key": "",
+      "name": "ola",
+      "fields": [
+        {
+          "name": "performance",
+          "table": "ola",
+          "label": "Performance",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_upgrade_history_log": {
+      "key": "",
+      "name": "sys_upgrade_history_log",
+      "fields": [
+        {
+          "name": "payload_diff",
+          "table": "sys_upgrade_history_log",
+          "label": "File differences",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sla": {
+      "key": "",
+      "name": "sla",
+      "fields": [
+        {
+          "name": "reponsibilities",
+          "table": "sla",
+          "label": "Reponsibilities",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "disaster_recovery",
+          "table": "sla",
+          "label": "Disaster recovery",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "change_procedures",
+          "table": "sla",
+          "label": "Change procedures",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "security_notes",
+          "table": "sla",
+          "label": "Security notes",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "incident_procedures",
+          "table": "sla",
+          "label": "Incident procedures",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "description",
+          "table": "sla",
+          "label": "Description",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "notes",
+          "table": "sla",
+          "label": "Notes",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "service_goals",
+          "table": "sla",
+          "label": "Service goals",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "signatures",
+          "table": "sla",
+          "label": "Signatures",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "cmdb_ci_outage": {
+      "key": "",
+      "name": "cmdb_ci_outage",
+      "fields": [
+        {
+          "name": "details",
+          "table": "cmdb_ci_outage",
+          "label": "Details",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "itil_agreement_ci": {
+      "key": "",
+      "name": "itil_agreement_ci",
+      "fields": [
+        {
+          "name": "description",
+          "table": "itil_agreement_ci",
+          "label": "Description",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "task_activity": {
+      "key": "",
+      "name": "task_activity",
+      "fields": [
+        {
+          "name": "message",
+          "table": "task_activity",
+          "label": "Message",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "release_feature": {
+      "key": "",
+      "name": "release_feature",
+      "fields": [
+        {
+          "name": "documentation",
+          "table": "release_feature",
+          "label": "Documentation",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "signature_image": {
+      "key": "",
+      "name": "signature_image",
+      "fields": [
+        {
+          "name": "signed_name",
+          "table": "signature_image",
+          "label": "Signed name",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "data",
+          "table": "signature_image",
+          "label": "Data",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_update_preview_xml": {
+      "key": "",
+      "name": "sys_update_preview_xml",
+      "fields": [
+        {
+          "name": "payload_diff",
+          "table": "sys_update_preview_xml",
+          "label": "File differences",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "cab_attendee": {
+      "key": "",
+      "name": "cab_attendee",
+      "fields": [
+        {
+          "name": "email_content",
+          "table": "cab_attendee",
+          "label": "Email content",
+          "type": "html",
+          "scope": "Change Management - CAB Workbench",
+          "scope_id": "18351d53eb32120034d1eeea1206fe79"
+        }
+      ]
+    },
+    "sys_update_diff": {
+      "key": "",
+      "name": "sys_update_diff",
+      "fields": [
+        {
+          "name": "payload_diff",
+          "table": "sys_update_diff",
+          "label": "File differences",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "release_task": {
+      "key": "",
+      "name": "release_task",
+      "fields": [
+        {
+          "name": "documentation",
+          "table": "release_task",
+          "label": "Documentation",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "itil_agreement_target_ci": {
+      "key": "",
+      "name": "itil_agreement_target_ci",
+      "fields": [
+        {
+          "name": "description",
+          "table": "itil_agreement_target_ci",
+          "label": "Description",
+          "type": "html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sn_hr_core_document_template": {
+      "key": "",
+      "name": "sn_hr_core_document_template",
+      "fields": [
+        {
+          "name": "html_script_body",
+          "table": "sn_hr_core_document_template",
+          "label": "Body",
+          "type": "html_script",
+          "scope": "Human Resources: Core",
+          "scope_id": "d4ac3fff5b311200a4656ede91f91af2"
+        },
+        {
+          "name": "body",
+          "table": "sn_hr_core_document_template",
+          "label": "Body",
+          "type": "translated_html",
+          "scope": "Human Resources: Core",
+          "scope_id": "d4ac3fff5b311200a4656ede91f91af2"
+        }
+      ]
+    },
+    "sn_devstudio_studio_preferences": {
+      "key": "",
+      "name": "sn_devstudio_studio_preferences",
+      "fields": [
+        {
+          "name": "allowed_values",
+          "table": "sn_devstudio_studio_preferences",
+          "label": "Allowed Values",
+          "type": "json",
+          "scope": "Studio",
+          "scope_id": "5d9789f3eb51310007e48c1cf106fe9e"
+        }
+      ]
+    },
+    "sys_flow_step_report": {
+      "key": "",
+      "name": "sys_flow_step_report",
+      "fields": [
+        {
+          "name": "step",
+          "table": "sys_flow_step_report",
+          "label": "Step",
+          "type": "json",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_flow_context": {
+      "key": "",
+      "name": "sys_flow_context",
+      "fields": [
+        {
+          "name": "plan",
+          "table": "sys_flow_context",
+          "label": "Plan",
+          "type": "json",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "origins",
+          "table": "sys_flow_context",
+          "label": "Origins",
+          "type": "json",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "bsm_chart": {
+      "key": "",
+      "name": "bsm_chart",
+      "fields": [
+        {
+          "name": "chart",
+          "table": "bsm_chart",
+          "label": "Chart",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "filter",
+          "table": "bsm_chart",
+          "label": "Filter",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "ngbsm_script": {
+      "key": "",
+      "name": "ngbsm_script",
+      "fields": [
+        {
+          "name": "script_plain",
+          "table": "ngbsm_script",
+          "label": "Script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "ngbsm_filter": {
+      "key": "",
+      "name": "ngbsm_filter",
+      "fields": [
+        {
+          "name": "filter",
+          "table": "ngbsm_filter",
+          "label": "Filter",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "planned_change_validation_script": {
+      "key": "",
+      "name": "planned_change_validation_script",
+      "fields": [
+        {
+          "name": "script",
+          "table": "planned_change_validation_script",
+          "label": "Script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "wf_workflow_version": {
+      "key": "",
+      "name": "wf_workflow_version",
+      "fields": [
+        {
+          "name": "on_cancel",
+          "table": "wf_workflow_version",
+          "label": "On-cancel script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "bsm_map_filter": {
+      "key": "",
+      "name": "bsm_map_filter",
+      "fields": [
+        {
+          "name": "filter",
+          "table": "bsm_map_filter",
+          "label": "Filter",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "cmdb_ci_translation_rule": {
+      "key": "",
+      "name": "cmdb_ci_translation_rule",
+      "fields": [
+        {
+          "name": "rule",
+          "table": "cmdb_ci_translation_rule",
+          "label": "Script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "automation_pipeline_transformer_javascript": {
+      "key": "",
+      "name": "automation_pipeline_transformer_javascript",
+      "fields": [
+        {
+          "name": "script",
+          "table": "automation_pipeline_transformer_javascript",
+          "label": "Script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "matching_rule": {
+      "key": "",
+      "name": "matching_rule",
+      "fields": [
+        {
+          "name": "script",
+          "table": "matching_rule",
+          "label": "Script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "proposed_change_verification_rules": {
+      "key": "",
+      "name": "proposed_change_verification_rules",
+      "fields": [
+        {
+          "name": "rule_script",
+          "table": "proposed_change_verification_rules",
+          "label": "Rule script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "agent_schedule_task_config": {
+      "key": "",
+      "name": "agent_schedule_task_config",
+      "fields": [
+        {
+          "name": "script",
+          "table": "agent_schedule_task_config",
+          "label": "Script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "cmdb_depreciation": {
+      "key": "",
+      "name": "cmdb_depreciation",
+      "fields": [
+        {
+          "name": "script",
+          "table": "cmdb_depreciation",
+          "label": "Script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "matching_dimension": {
+      "key": "",
+      "name": "matching_dimension",
+      "fields": [
+        {
+          "name": "script",
+          "table": "matching_dimension",
+          "label": "Script",
+          "type": "script",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sn_hr_le_activity_set": {
+      "key": "",
+      "name": "sn_hr_le_activity_set",
+      "fields": [
+        {
+          "name": "trigger_script",
+          "table": "sn_hr_le_activity_set",
+          "label": "Trigger script",
+          "type": "script_plain",
+          "scope": "Human Resources: Lifecycle Events",
+          "scope_id": "532da270dad21200a4656ede91f9331e"
+        }
+      ]
+    },
+    "ecc_handler": {
+      "key": "",
+      "name": "ecc_handler",
+      "fields": [
+        {
+          "name": "script",
+          "table": "ecc_handler",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "condition_script",
+          "table": "ecc_handler",
+          "label": "Condition script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "bsm_context_menu": {
+      "key": "",
+      "name": "bsm_context_menu",
+      "fields": [
+        {
+          "name": "script",
+          "table": "bsm_context_menu",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "link_generator_service": {
+      "key": "",
+      "name": "link_generator_service",
+      "fields": [
+        {
+          "name": "script",
+          "table": "link_generator_service",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "ngbsm_context_menu": {
+      "key": "",
+      "name": "ngbsm_context_menu",
+      "fields": [
+        {
+          "name": "script",
+          "table": "ngbsm_context_menu",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "ecc_agent_ext": {
+      "key": "",
+      "name": "ecc_agent_ext",
+      "fields": [
+        {
+          "name": "script",
+          "table": "ecc_agent_ext",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sn_hr_core_pdf_template_mapping": {
+      "key": "",
+      "name": "sn_hr_core_pdf_template_mapping",
+      "fields": [
+        {
+          "name": "script",
+          "table": "sn_hr_core_pdf_template_mapping",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Human Resources: Core",
+          "scope_id": "d4ac3fff5b311200a4656ede91f91af2"
+        }
+      ]
+    },
+    "cmdb_sw_license_calculation": {
+      "key": "",
+      "name": "cmdb_sw_license_calculation",
+      "fields": [
+        {
+          "name": "calculation",
+          "table": "cmdb_sw_license_calculation",
+          "label": "Script",
+          "type": "script_plain",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "chat_queue": {
+      "key": "",
+      "name": "chat_queue",
+      "fields": [
+        {
+          "name": "not_available",
+          "table": "chat_queue",
+          "label": "Not available",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "kb_knowledge_base": {
+      "key": "",
+      "name": "kb_knowledge_base",
+      "fields": [
+        {
+          "name": "question_annotation",
+          "table": "kb_knowledge_base",
+          "label": "Question annotation",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "draft_document": {
+      "key": "",
+      "name": "draft_document",
+      "fields": [
+        {
+          "name": "body",
+          "table": "draft_document",
+          "label": "Body",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "cmdb_model": {
+      "key": "",
+      "name": "cmdb_model",
+      "fields": [
+        {
+          "name": "description",
+          "table": "cmdb_model",
+          "label": "Description",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_product_help": {
+      "key": "",
+      "name": "sys_product_help",
+      "fields": [
+        {
+          "name": "text",
+          "table": "sys_product_help",
+          "label": "Text",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "kb_knowledge": {
+      "key": "",
+      "name": "kb_knowledge",
+      "fields": [
+        {
+          "name": "text",
+          "table": "kb_knowledge",
+          "label": "Text",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "kb_social_qa_question": {
+      "key": "",
+      "name": "kb_social_qa_question",
+      "fields": [
+        {
+          "name": "question_details",
+          "table": "kb_social_qa_question",
+          "label": "Question details",
+          "type": "translated_html",
+          "scope": "Social Knowledge",
+          "scope_id": "11722b01473231007f47563dbb9a7154"
+        }
+      ]
+    },
+    "ast_contract": {
+      "key": "",
+      "name": "ast_contract",
+      "fields": [
+        {
+          "name": "terms_and_conditions",
+          "table": "ast_contract",
+          "label": "Terms and conditions",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sqanda_answer": {
+      "key": "",
+      "name": "sqanda_answer",
+      "fields": [
+        {
+          "name": "answer",
+          "table": "sqanda_answer",
+          "label": "Answer",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sn_hr_core_case": {
+      "key": "",
+      "name": "sn_hr_core_case",
+      "fields": [
+        {
+          "name": "fulfillment_instructions",
+          "table": "sn_hr_core_case",
+          "label": "Fulfillment instructions",
+          "type": "translated_html",
+          "scope": "Human Resources: Core",
+          "scope_id": "d4ac3fff5b311200a4656ede91f91af2"
+        },
+        {
+          "name": "details",
+          "table": "sn_hr_core_case",
+          "label": "Details",
+          "type": "translated_html",
+          "scope": "Human Resources: Core",
+          "scope_id": "d4ac3fff5b311200a4656ede91f91af2"
+        }
+      ]
+    },
+    "clm_terms_and_conditions": {
+      "key": "",
+      "name": "clm_terms_and_conditions",
+      "fields": [
+        {
+          "name": "description",
+          "table": "clm_terms_and_conditions",
+          "label": "Description",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "kb_social_qa_answer": {
+      "key": "",
+      "name": "kb_social_qa_answer",
+      "fields": [
+        {
+          "name": "answer",
+          "table": "kb_social_qa_answer",
+          "label": "Answer",
+          "type": "translated_html",
+          "scope": "Social Knowledge",
+          "scope_id": "11722b01473231007f47563dbb9a7154"
+        }
+      ]
+    },
+    "sqanda_question": {
+      "key": "",
+      "name": "sqanda_question",
+      "fields": [
+        {
+          "name": "question_details",
+          "table": "sqanda_question",
+          "label": "Question details",
+          "type": "translated_html",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_soap_message_test": {
+      "key": "",
+      "name": "sys_soap_message_test",
+      "fields": [
+        {
+          "name": "response",
+          "table": "sys_soap_message_test",
+          "label": "Response",
+          "type": "xml",
+          "scope": "Global",
+          "scope_id": "global"
+        },
+        {
+          "name": "request",
+          "table": "sys_soap_message_test",
+          "label": "Request",
+          "type": "xml",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sys_soap_message_import": {
+      "key": "",
+      "name": "sys_soap_message_import",
+      "fields": [
+        {
+          "name": "external_document",
+          "table": "sys_soap_message_import",
+          "label": "External Document",
+          "type": "xml",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "pa_content_metadata": {
+      "key": "",
+      "name": "pa_content_metadata",
+      "fields": [
+        {
+          "name": "metadata",
+          "table": "pa_content_metadata",
+          "label": "Metadata",
+          "type": "xml",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    },
+    "sc_cart_item": {
+      "key": "",
+      "name": "sc_cart_item",
+      "fields": [
+        {
+          "name": "hints",
+          "table": "sc_cart_item",
+          "label": "Hints",
+          "type": "xml",
+          "scope": "Global",
+          "scope_id": "global"
+        }
+      ]
+    }
+  }
+}

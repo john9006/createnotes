@@ -1,0 +1,62 @@
+{
+  "x_snc_createnotes\\sp_widget\\Notes List_script.js": {
+    "serverCRC": 1956819860,
+    "clientCRC": 1956819860,
+    "serverSync": 1532385603034,
+    "clientSync": 1532385571000
+  },
+  "x_snc_createnotes\\sp_widget\\Notes List_template.html": {
+    "serverCRC": 1505872751,
+    "clientCRC": 1505872751,
+    "serverSync": 1532385603034,
+    "clientSync": 1532315988000
+  },
+  "x_snc_createnotes\\sp_widget\\Notes List_client_script.js": {
+    "serverCRC": 2113192792,
+    "clientCRC": 2113192792,
+    "serverSync": 1532385603034,
+    "clientSync": 1532385570000
+  },
+  "x_snc_createnotes\\sp_widget\\Notes Body_template.html": {
+    "serverCRC": 2839337833,
+    "clientCRC": 2839337833,
+    "serverSync": 1532385603034,
+    "clientSync": 1532321154000
+  },
+  "x_snc_createnotes\\sp_widget\\Notes List_css.css": {
+    "serverCRC": 4117945644,
+    "clientCRC": 4117945644,
+    "serverSync": 1532385603034,
+    "clientSync": 1532304775000
+  },
+  "x_snc_createnotes\\sp_widget\\Notes Body_client_script.js": {
+    "serverCRC": 3951383283,
+    "clientCRC": 3951383283,
+    "serverSync": 1532385603034,
+    "clientSync": 1532314911000
+  },
+  "x_snc_createnotes\\sp_widget\\Notes Body_script.js": {
+    "serverCRC": 1509277718,
+    "clientCRC": 1509277718,
+    "serverSync": 1532385603034,
+    "clientSync": 1532304775000
+  },
+  "x_snc_createnotes\\sp_widget\\Notes List_option_schema.js": {
+    "serverCRC": 3975854728,
+    "clientCRC": 3975854728,
+    "serverSync": 1532385603034,
+    "clientSync": 1532321460000
+  },
+  "x_snc_createnotes\\sp_instance\\The Important Stuff_widget_parameters.js": {
+    "serverCRC": 211215117,
+    "clientCRC": 211215117,
+    "serverSync": 1532385603034,
+    "clientSync": 1532316225000
+  },
+  "x_snc_createnotes\\sp_angular_provider\\deleteButtonConfirm_script.js": {
+    "serverCRC": 152068580,
+    "clientCRC": 152068580,
+    "serverSync": 1532385603034,
+    "clientSync": 1532385571000
+  }
+}

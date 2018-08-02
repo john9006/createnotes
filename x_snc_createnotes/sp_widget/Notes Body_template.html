@@ -1,0 +1,14 @@
+<div class="panel panel-default" ng-show="c.data.noteID">
+  <div class="panel-heading clearfix">
+    <div class="row">
+      <div class="col-md-11">
+        <input class="form-control" id="note-title" ng-model="c.data.title" ng-change="c.updateNote('title')" ng-model-options="{debounce: 1000}"/>
+      </div>
+      <delete-button-confirm></delete-button-confirm> 
+      </div>
+    </div>
+  </div>
+  <div class="panel-body">
+    <textarea class="form-control" id="note-body" ng-model="c.data.note" ng-change="c.updateNote('body')" ng-model-options="{debounce: 1000}" ></textarea>
+  </div>
+</div>
